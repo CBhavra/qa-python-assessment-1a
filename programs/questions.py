@@ -65,7 +65,8 @@ def one(input1, input2):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-    return input.lower().split(str(bert))
+    string = str(bert) 
+    return input.lower().split(string)
     
 
 
@@ -194,7 +195,7 @@ def six(input):
     # How do we ignore case in a String? help(str) may offer some insight.
 
 def seven(input):
-    input.lower.count(aieou)
+    input.lower().count(aieou)
 
 
     # <QUESTION 8>
