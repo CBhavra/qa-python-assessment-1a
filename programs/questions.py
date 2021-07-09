@@ -65,7 +65,8 @@ def one(input1, input2):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-    pass
+    return input.lower().split(str(bert))
+    
 
 
     # <QUESTION 3>
@@ -88,7 +89,17 @@ def two(input):
     # No Hints for this question
 
 def three(arg1):
-    pass
+    for i in range(arg1):
+        if i % 3 == 0:
+            return fizz
+        elif i % 5 == 0:
+            return buzz
+        elif i % 3 == 0 and i % 5 == 0:
+            return fizzbuzz 
+        else: 
+            return null
+
+    
 
 
     # <QUESTION 4>
@@ -114,7 +125,8 @@ def three(arg1):
     # help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
-    pass
+    pass 
+
 
 
     # <QUESTION 5>
@@ -182,7 +194,7 @@ def six(input):
     # How do we ignore case in a String? help(str) may offer some insight.
 
 def seven(input):
-    pass
+    input.lower.count(aieou)
 
 
     # <QUESTION 8>
@@ -201,7 +213,10 @@ def seven(input):
     # You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def eight(input):
-    pass
+    fac = 1
+    for i in range(1, input+1):
+        fac = fac*i
+    return fac 
 
 
     # <QUESTION 9>
@@ -223,7 +238,11 @@ def eight(input):
     # Take a look at the documentation for Strings, List and range.
 
 def nine(inputString, char):
-    pass
+    return inputString.index(char)
+    
+    #for cha in inputString:
+        #return cha.index(cha = char)
+
 
 
     # <QUESTION 10>
